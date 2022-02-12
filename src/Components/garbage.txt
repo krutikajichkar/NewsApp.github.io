@@ -1,0 +1,18 @@
+ <div className="dropdown mx-5">
+                        <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Country ({props.countryName})
+                        </a>
+
+                        <ul className="dropdown-menu " aria-labelledby="dropdownMenuLink">
+                            <li><a className="dropdown-item" onClick={() => {props.countryHandler('in')}} href="/">India(in)</a></li>
+                            <li><a className="dropdown-item" onClick={() => {props.countryHandler('us')}} href="/">USA(us)</a></li>
+                            <li><a className="dropdown-item" onClick={() => {props.countryHandler('ar')}} href="/">Aergentina(ar)</a></li>
+                            <li><a className="dropdown-item" onClick={() => {props.countryHandler('at')}} href="/">Austria(at)</a></li>
+                            <li><a className="dropdown-item" onClick={() => {props.countryHandler('be')}} href="/">Belgium(be)</a></li>
+                            <li><a className="dropdown-item" onClick={() => {props.countryHandler('bg')}} href="/">Bulgeria(bg)</a></li>
+                            <li><a className="dropdown-item" onClick={() => {props.countryHandler('br')}} href="/">Brazil(br)</a></li>
+                            <li><a className="dropdown-item" onClick={() => {props.countryHandler('ca')}} href="/">Canada(ca)</a></li>
+                            <li><a className="dropdown-item" onClick={() => {props.countryHandler('cn')}} href="/">China(cn)</a></li>
+                            
+                        </ul>
+                    </div>
